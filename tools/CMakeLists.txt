@@ -1,0 +1,2 @@
+add_executable(make_demo_data make_demo_data.cpp)
+target_link_libraries(make_demo_data PRIVATE portfolio_common)

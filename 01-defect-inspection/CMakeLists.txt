@@ -1,0 +1,2 @@
+add_executable(defect_inspection src/main.cpp)
+target_link_libraries(defect_inspection PRIVATE portfolio_common)

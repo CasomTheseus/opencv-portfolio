@@ -1,0 +1,2 @@
+add_executable(label_localization src/main.cpp)
+target_link_libraries(label_localization PRIVATE portfolio_common)

@@ -1,0 +1,2 @@
+add_executable(video_analytics src/main.cpp)
+target_link_libraries(video_analytics PRIVATE portfolio_common)

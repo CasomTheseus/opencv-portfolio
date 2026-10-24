@@ -1,0 +1,20 @@
+# Build output
+build/
+cmake-build-*/
+compile_commands.json
+
+# Generated demo output
+outputs/
+assets/generated/
+
+# Large / generated media
+*.mp4
+*.avi
+*.mov
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+*.o
+*.dSYM/
